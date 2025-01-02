@@ -1,22 +1,19 @@
 import React from 'react';
 import { AnimateOnScroll } from './AnimateOnScroll';
 
-const australia1String = require('../images/australia1.png').default;
-const australia2String = require('../images/australia2.png').default;
-const antarcticaString = require('../images/antarctica.png').default;
 
 export function Gallery() {
   const images = [
     {
-      url: australia1String,
+      url: "https://cdn.discordapp.com/attachments/1312296442915721217/1324450456377753720/image.png?ex=6778321b&is=6776e09b&hm=40287457f5920aa26f24fc6f8900ca471f9f2b80576c9458ebab59ac9a74e418&",
       alt: "Server Screenshot 1"
     },
     {
-      url: australia2String,
+      url: "https://cdn.discordapp.com/attachments/1312296442915721217/1324450957815185468/image.png?ex=67783293&is=6776e113&hm=503bd57fe7bbc8a05ee5df4c9d5ad812fb045e77fa83488436bc56638e5f33d1&",
       alt: "Server Screenshot 2"
     },
     {
-      url: antarcticaString,
+      url: "https://cdn.discordapp.com/attachments/1312296442915721217/1324450726868553779/image.png?ex=6778325c&is=6776e0dc&hm=8d63dd2b1ad2a21a4d83558f937e5ca3c7d88b704d1bc7488dba7012cc8a37fb&",
       alt: "Server Screenshot 3"
     }
   ];
