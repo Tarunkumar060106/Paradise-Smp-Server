@@ -4,19 +4,19 @@ import { AnimateOnScroll } from './AnimateOnScroll';
 export function Gallery() {
   const images = [
     {
-      url: "australia.png",
+      url: "images/australia.png",
       alt: "Server Screenshot 1"
     },
     {
-      url: "australia2.png",
+      url: "images/australia2.png",
       alt: "Server Screenshot 2"
     },
     {
-      url: "antarctica.png",
+      url: "images/antarctica.png",
       alt: "Server Screenshot 3"
     }
   ];
-
+  
   return (
     <section id="gallery" className="py-20 px-4 bg-gray-900">
       <div className="max-w-7xl mx-auto">
