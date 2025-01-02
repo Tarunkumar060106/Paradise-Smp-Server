@@ -1,21 +1,22 @@
 import React from 'react';
 import { AnimateOnScroll } from './AnimateOnScroll';
-import australia1 from '../images/australia1.png';
-import australia2 from '../images/australia2.png';
-import antarctica from '../images/antarctica.png';
+
+const australia1String = require('../images/australia1.png').default;
+const australia2String = require('../images/australia2.png').default;
+const antarcticaString = require('../images/antarctica.png').default;
 
 export function Gallery() {
   const images = [
     {
-      url: { australia1 },
+      url: australia1String,
       alt: "Server Screenshot 1"
     },
     {
-      url: { australia2 },
+      url: australia2String,
       alt: "Server Screenshot 2"
     },
     {
-      url: { antarctica },
+      url: antarcticaString,
       alt: "Server Screenshot 3"
     }
   ];
