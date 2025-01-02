@@ -1,18 +1,21 @@
 import React from 'react';
 import { AnimateOnScroll } from './AnimateOnScroll';
+import australia1 from '../images/australia1.png';
+import australia2 from '../images/australia2.png';
+import antarctica from '../images/antarctica.png';
 
 export function Gallery() {
   const images = [
     {
-      url: "images/australia.png",
+      url: { australia1 },
       alt: "Server Screenshot 1"
     },
     {
-      url: "images/australia2.png",
+      url: { australia2 },
       alt: "Server Screenshot 2"
     },
     {
-      url: "images/antarctica.png",
+      url: { antarctica },
       alt: "Server Screenshot 3"
     }
   ];
