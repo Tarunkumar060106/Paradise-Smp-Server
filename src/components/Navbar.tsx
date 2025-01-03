@@ -23,7 +23,10 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <img className= 'h-8 w-8 border-2 border-violet-800 rounded-full' src="https://cdn.discordapp.com/attachments/1321765821940240386/1321812919142580224/3cf2abe5-29f9-402e-8721-fd659beae9b8.webp?ex=6777d436&is=677682b6&hm=0eb90a34274f6a33015ee6c80d11c599c438bd6c00e210676eb8e399d7b3a740&" />
+            <img
+              className="h-8 w-8 border-2 border-violet-800 rounded-full"
+              src="https://cdn.discordapp.com/attachments/1321765821940240386/1321812919142580224/3cf2abe5-29f9-402e-8721-fd659beae9b8.webp?ex=677925b6&amp;is=6777d436&amp;hm=42f10116e1b1b4189ecc8e5783934aedb6d311954623b64149db6eb0879cf661"
+            />
             <span className="ml-2 text-xl font-bold text-white">Paradise Earth SMP</span>
           </div>
           
