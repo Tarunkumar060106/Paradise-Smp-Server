@@ -14,15 +14,15 @@ export function JoinServer() {
           </p>
           <div className='flex justify-center'>
             <div className="bg-gray-800 rounded-lg p-6 inline-block shadow-lg shadow-purple-500/20 w-96 h-40">
-              <code className="text-purple-400 text-xl">in1.phenoixhost.link:26001</code>
+              <code className="text-purple-400 text-xl">210.89.44.196:22454</code>
               <p className="text-gray-400 mt-4">
                 Minecraft Java All Versions Supported.
                 Recommended Versions : 1.19.x
               </p>
             </div>
             <div className="bg-gray-800 rounded-lg p-6 inline-block shadow-lg shadow-purple-500/20 ml-5 w-96 h-40">
-              <code className="text-purple-400 text-xl">Ip: in1.phenoixhost.link</code>
-              <p className="text-purple-400 text-xl">Port: 26017</p>
+              <code className="text-purple-400 text-xl">Ip: 210.89.44.196</code>
+              <p className="text-purple-400 text-xl">Port: 22454</p>
               <p className="text-gray-400 mt-4">
                 Minecraft Bedrock All Version Supported
                 Recommended Versions : 1.19.x

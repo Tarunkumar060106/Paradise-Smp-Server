@@ -14,7 +14,7 @@ export function ServerLinks() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           <AnimateOnScroll className="delay-[100ms]">
             <a
-              href="http://in1.phenoixhost.link:26033/"
+              href="http://play.plutocloud.site:19132/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center p-8 bg-gray-800/50 backdrop-blur-sm rounded-lg border border-gray-700 hover:border-purple-500/50 transition-colors group"
